@@ -1,16 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
-using ToDoList.Models;
+using BestRestaurant.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
 namespace BestRestaurant.Controllers
 {
-  public class CategoriesController : Controller
+  public class RestaurantsController : Controller
   {
     private readonly BestRestaurantContext _db;
 
-    public CategoriesController(BestRestaurantContext db)
+    public RestaurantsController(BestRestaurantContext db)
     {
       _db = db;
     }
