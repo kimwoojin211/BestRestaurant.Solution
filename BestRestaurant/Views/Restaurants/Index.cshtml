@@ -1,0 +1,25 @@
+@{
+  Layout = "_Layout";
+}
+
+@using BestRestaurant.Models;
+@using System.Linq
+
+@model List<Restaurant> model = _db.Restaurants.ToList();
+
+<h1>Restaurants</h1>
+
+@if (@Model.Count == 0)
+{
+  <h3>No Restaurants are added yet</h3>
+} 
+
+<ul>
+  @foreach(Restaurant restaurant in Model)
+  {
+    <li>@Html.ActionLink($"{restaurant.Name}", "Details", new { id = restaurant.RestaurantId })</li>
+  }
+</ul>
+
+@* <p>@Html.ActionLink("Add new category", "Create")</p> *@
+<p>@Html.ActionLink("Home", "Index", "Home")</p>
