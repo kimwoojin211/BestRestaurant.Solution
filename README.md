@@ -1,5 +1,6 @@
 # _Best Restaurant_
 
+## _This project is not in a complete or portfolio ready state, and should not be considered representational of professional work._
 #### _Best Restaurant_
 
 #### By _**Woo Jin Kim and Connor Burgess**_
@@ -9,11 +10,12 @@
 * _C#_
 * _.NET 5.0.102_
 * _SDK 8.0.19_
-* _MS Test_
-
+* _Asp.net Core Mvc 4.8_
+* _Entity Framework Core_
+* _MySql_
 ## Description
 
-_Best Restaurant_
+_Organizes restaurants by cuisine type_
 
 ## Setup/Installation Requirements
 
