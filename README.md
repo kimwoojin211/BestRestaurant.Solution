@@ -3,7 +3,7 @@
 ## _This project is not in a complete or portfolio ready state, and should not be considered representational of professional work._
 #### _Best Restaurant_
 
-#### By _**Woo Jin Kim and Connor Burgess**_
+#### By _**Woo Jin Kim, Connor Burgess, & Loui Schoenknecht**_
 
 ## Technologies Used
 
@@ -36,4 +36,5 @@ _MIT_
 
 _Woo Jin Kim (kimwoojin211@gmail.com)_
 _Connor Burgess (connorburgesscodes@gmail.com)_
+_Louie Schoenknecht (luisesch97@gmail.com)_
 Copyright (c) 2021 Woo Jin Kim, Connor Burgess
